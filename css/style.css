@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Playfair Display', 'Montserrat', 'Roboto';
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 120px;
+    clear:both;
+}
+.wrapper1{
+    max-width: 1280px;
+    margin: 0 120px;
+    clear:both;
+    overflow-x: hidden;
+}
+header{
+    height: 130px;
+}
+.logo{
+    float: left;
+    margin-top: 29px;
+    margin-left: 60px;
+    width: 232px;
+    height: 68px;
+}
+.left-header{
+    float: left;
+    margin-top: 29px;
+    margin-left: 60px;
+}
+li{
+    display:inline-block;
+    
+}
+
+li a{
+    display: inline-block;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #151D41;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+.right-header{
+    float: right;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+.hire{
+    font-size: 25px;
+    font-family: Montserrat;
+    color:#0FBF61;
+    text-decoration: none;
+}
+section.wel-come{
+    clear: both;
+    margin-top: 78px;
+    margin-right: 95px;
+    margin-left: 95px;
+}
+.welcome{
+    clear:both;
+    width: 52%;
+    float: left;
+    margin-top: 109px;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin-top: 15px;
+}
+h5 span{
+    color: #0FBF61;
+    padding: 16px 24px 14px 28px;
+    background-color: #0FBF6133;
+    height: 54px;
+}
+#subhead2{
+    color:#151D41;
+    padding-top: 10px;
+    font-weight: normal;
+}
+h2{
+    font-size: 60px;
+    font-family: 'Playfair Display';
+    color: #151D41;
+    padding-top: 15px;
+}
+.welcome-head{
+    padding-top: 19px;
+}
+p.description{
+    font-size: 16px;
+    padding-top: 55px;
+    font-family: 'Roboto';
+    color: #151D41;
+    height: 95px;
+    line-height: 35px;
+    padding-bottom: 80px;
+}
+button{
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    height: 80px;
+}
+.hire_button{
+    margin-top: 55px;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 25px 66px 25px 66px;
+    background-color: #0FBF61;
+}
+.explore_button{
+    margin-top: 55px;
+    font-size: 25px;
+    color: #151D41;
+    padding: 25px 67px 25px 67px;
+    margin-left: 21px;
+    border: 2px solid #151D41;
+    background-color: #FFFFFF;
+}
+
+.welcome-avtar{
+    width: 41%;
+    float: right;
+}
+.avtar1{
+    width: 545px;
+    height: 590px
+}
+
+section.About{
+    padding-top: 244px;
+    clear: both;
+    margin-right: 95px;
+    margin-left: 95px;
+
+}
+.div_avtar2{
+    width: 56%;
+    float: left;
+}
+.avtar2{
+    width: 650px;
+    height: 755px;
+}
+.about_me{
+    width: 41%;
+    float: right;
+    padding-left: 45px;
+}
+#about_title{
+    padding-top: 35px;
+}
+h3{
+    font-size: 40px;
+    font-family: 'Playfair Display';
+    color: #151D41;
+    font-weight: bold;
+}
+.about_heading{
+    padding-top: 50px;
+    padding-bottom: 53px;
+}
+.about_para{
+    font-size: 18px;
+    font-family: 'Roboto';
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.button_down{
+    height: 96px;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 33px 65px 33px 65px;
+    margin-top: 33px;
+    background-color: #0FBF61;
+    line-height: 35px;
+}
+section.circle{
+    clear: both;
+    padding-top: 229px;
+    padding-bottom: 188px;
+}
+.circle1{
+    text-align: center;
+}
+.ellips{
+    display: inline-block;
+    width: 320px;
+    height: 320px;
+    background-color: #FFFFFF;
+    border: 8px solid #707070;
+    box-shadow: 0px 15px 20px #151D410F;
+    border-radius: 50%;
+    margin-left: 71px;
+}
+.ellips1{
+    margin-left: 0px;
+}
+.ellips:hover{
+    border-color: #00C878;
+}
+.content{
+    text-align: center;
+}
+h1{
+    font-size: 69px;
+    padding-top:104px;
+    font-family: 'Playfair Display';
+    color: #151D41;
+    font-weight: 900px;
+}
+.cir_subhead{
+    padding-top: 9px;
+    color: #151D41;
+}
+.card_section{
+    padding-bottom: 189px;
+}
+.card_title{
+    text-align: center;
+}
+.card_heading{
+    text-align: center;
+    padding-top: 26px;
+
+}
+.card-container{
+    width: 2000px;
+}
+
+.card{
+    display: inline-block;
+    padding-top: 53px;
+    width: 353px;
+    height: 517px;
+    padding-left: 40px;
+    padding-right: 13px;
+    padding-bottom: 49px;
+    margin-top: 99px;
+    margin-left: 62px;
+    box-shadow: 0px 20px 20px #7682B72E;
+}
+.card1{
+    margin-left: 0px;
+}
+.card:hover{
+    background-color: #0FBF61;
+}
+.card:hover .icon1{
+    background-image: url("../image/web-design-hover.png");
+    border-color: #FFFFFF;
+}
+.card:hover .icon2{
+    background-image: url("../image/graphics-design-hover.png");
+    border-color: #FFFFFF;
+}
+.card:hover .icon3{
+    background-image: url("../image/web-development-hover.png");
+    border-color: #FFFFFF;
+}
+.icon1{
+    display: inline-block;
+    background-image: url("../image/web-design.png");
+    background-repeat: no-repeat;
+    width: 109px;
+    height: 108px;
+    background-position: center;
+    border: 2px solid #0FBF61;
+    border-radius: 109px 109px;
+   
+}
+
+.icon2{
+    background-image: url("../image/graphics-design.png");
+    background-repeat: no-repeat;
+    width: 109px;
+    height: 108px;
+    background-position: center;
+    border: 2px solid #0FBF61;
+    border-radius: 109px 109px;
+   
+}
+.icon3{
+    background-image: url("../image/web-development.png");
+    background-repeat: no-repeat;
+    width: 109px;
+    height: 108px;
+    background-position: center;
+    border: 2px solid #0FBF61;
+    border-radius: 109px 109px;
+   
+}
+h4{
+    font-size: 33px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: #151D41;
+    padding-top: 26px;
+
+}
+.card:hover .chead{
+    color: #FFFFFF;
+}
+.dash{
+    width: 49px;
+    height: 41px;
+    border-bottom: 3px dashed #0FBF61;
+}
+.card:hover .dash{
+    border-bottom:3px dashed #FFFFFF;
+}
+.card .card_containt{
+    padding-top: 25px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    line-height: 35px;
+    padding-bottom: 26px;
+    color: #151D41;
+}
+.card:hover .card_containt{
+    color: #FFFFFF;
+}
+
+.know-more {
+    height: 39px;
+    background-color: #0FBF61;
+    padding: 9px 15px 9px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.arrow{
+    background-image:url("../image/arrow.png") ;
+    display: inline-block;
+    width: 16px;
+    height:11px ;
+}
+
+.card:hover .know-more{
+    background-color: #FFFFFF;
+    color: black;
+}
+.card:hover .arrow{
+   background-image:url("../image/arrow_hover.png") ; 
+}
+section.sec-progress{
+    padding-left: 0px;
+    padding-right: 0px;
+    clear: both;
+}
+.exp-hire{
+    margin-top: 31px;
+}
+.prog-subhead{
+    float: left;
+}
+.prog_subhead{
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: #151D41;
+}
+.prog-button{
+    float: right;
+}
+.prog_button{
+    font-size: 22px;
+    color: #FFFFFF;
+    padding: 23px 62px 23px 62px;
+    background-color: #0FBF61;
+}
+.parent-progress{
+    clear: both;
+}
+.prog_card{
+    clear: both;
+    display: inline-block;
+    width: 367px;
+    padding-top: 53px;
+    padding-right: 100px;
+}
+.percent{
+    font-size: 45px;
+    font-family: 'Playfair Display';
+    color: #151D41;
+    font-weight: 900px;
+    padding-bottom: 33px;
+}
+.prog_subtitle{
+    font-size: 27px;
+    font-family: 'Playfair Display';
+    color: #151D41;
+    line-height: 36px;
+    font-weight: bold;
+    padding-top: 26px;
+}
+.p-subtitle2{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #686868;
+    font-weight: medium;
+    padding-top: 12px;
+}
+progress{
+    appearance: none;
+    height: 4px;
+    background-color: #0FBF6133;
+}
+
+progress[prog]::-webkit-progress-bar {
+    background-color: #0FBF6133;
+
+  }
+  progress::-moz-progress-bar { background: #0FBF61; }
+
+  progress::-webkit-progress-value { background: #0FBF61; }
+  
+.sec-portfolio{
+    margin-top:277px;
+    overflow-x: hidden;
+}
+.port_subhead{
+    text-align: center;
+}
+.my_work{
+    text-align: center;
+    padding-top: 30px;
+}
+ul.ul_nav{
+    text-align: center;
+}
+li.sub_nav a{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Playfair Display';
+    color: #151D41;
+    padding-top: 29px;
+    padding-right: 30px;
+    padding-bottom: 65px;
+    
+}
+span.all{
+    border-bottom: 3px solid #0FBF61;
+}
+span.sublink:hover{
+    border-bottom: 3px solid #0FBF61;
+}
+.gallary{
+    width: 1578px;
+    overflow-x: hidden;
+}
+.gallary_img{
+    display: inline-block;
+    width: 336px;
+    margin-left: 30px;
+}
+.gallary_img1{
+    margin-left: 45px;
+}
+.wrap-img{
+    margin-right: 45px;
+}
+.view-button{
+    text-align: center;
+    padding-top: 186px;
+}
+.view{
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 25px 66px 25px 66px;
+    background-color: #0FBF61;
+}
+section.form{
+    padding-top: 329px;
+    padding-bottom: 211px;
+}
+.fcontact{
+    text-align: center;
+}
+.form-head{
+    text-align: center;
+    padding-top: 58px;
+}
+.form-input{
+    padding-top: 98px;
+    clear: both;
+}
+.left-input input[type=text], input[type=tel],
+.right-input input[type=mail],select{
+    width: 535px;
+    height: 60px;
+    border: 1px solid #151D41;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #151D41;
+    line-height: 21px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+} 
+.left-input{
+    width: 48%;
+    float:left;
+}
+.right-input{
+    width: 48%;
+    float: right;
+}
+textarea{
+    width: 100%;
+    height:205px;
+    border: 1px solid #151D41;
+    border-radius: 5px;
+    padding-top: 26px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #151D41;
+    line-height: 21px;
+}
+.submit-button{
+    margin-top: 80px;
+    text-align: center;
+}
+.submit-button input[type=submit]{
+    font-size: 25px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    background-color: #0FBF61;
+    border-radius: 5px;
+    padding: 25px 55px 25px 60px;
+
+}
+footer{
+    height: 85px;
+    border-top: 1px solid  #151D41; 
+}
+h6{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #151D41;
+    text-align: center;
+    padding-top:41px;
+    padding-bottom: 41px;
+}
